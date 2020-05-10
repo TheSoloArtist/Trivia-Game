@@ -1,1 +1,74 @@
+body {
+  background-color: #FFD90F;
+}
 
+#end-page {
+  display: none;
+}
+
+#main-logo {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  width: 100% \9;
+}
+/*height: 350px;*/
+h1 {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+}
+
+#end-page p {
+  font-size: 20px;
+  /* font-weight: 700; */
+}
+
+/*height: 350px;*/
+/*opacity: 0.75;*/
+/*Used to make the page scroll to see the background behind it*/
+#correct-answers {
+  margin-top: 32px;
+}
+
+#question {
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+footer {
+  height: 30px;
+  margin-top: 30px;
+}
+
+#copyright-small {
+  font-size: 12px;
+}
+
+#timer {
+  margin-top: 20px;
+}
+
+#done-button {
+  margin-top: 20px;
+}
+
+/*background-size: contain;*/
+/*REMOVE THIS LATER*/
+/*display: none;*/
+/*height: 350px;*/
+
+/*height: 350px;*/
+/*opacity: 0.75;*/
+/*Used to make the page scroll to see the background behind it*/
+
+  /*REMOVE THIS LATER*/
+/*display: none;*/
+/*Used to make the page scroll to see the background behind it*/
+  /*REMOVE THIS LATER*/
+/*display: none;*/
+/*Used to make the page scroll to see the background behind it*/
+
+/*height: 450px;*/ -->
