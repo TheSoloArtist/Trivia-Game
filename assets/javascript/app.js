@@ -108,61 +108,55 @@ var trivia = {
 // array:with questions and the correct answer
 var questionBank =
 [
-  {
-    question: "Who is Goku's longest Mentor?",
-    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
-    correct: "Master Roshi"
-  },
-  {
-    question: "Who is Goku's longest Mentor?",
-    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
-    correct: "Master Roshi"
-  },
-  {
-    question: "Who is Goku's longest Mentor?",
-    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
-    correct: "Master Roshi"
-  },
-  {
-    question: "Who is Goku's longest Mentor?",
-    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
-    correct: "Master Roshi"
-  },
-  {
-    question: "Who is Goku's longest Mentor?",
-    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
-    correct: "Master Roshi"
-  },
-  {
-    question: "Who is Goku's longest Mentor?",
-    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
-    correct: "Master Roshi"
-  },
-  {
-    question: "Who is Goku's longest Mentor?",
-    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
-    correct: "Master Roshi"
-  },
-  {
-    question: "Who is Goku's longest Mentor?",
-    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
-    correct: "Master Roshi"
-  },
-  {
-    question: "Who is Goku's longest Mentor?",
-    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
-    correct: "Master Roshi"
-  },
-  {
-    question: "Who is Goku's longest Mentor?",
-    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
-    correct: "Master Roshi"
-  },
 
   {
-    question: "gibberish?",
-    answers: ["1", "2", "3"],
-    correct: "answer"
+    question: "Who is Goku's father?",
+    answers: ["Berter", "Broly", "Bardock"],
+    correct: "Bardock"
   },
-  }
-]
+  {
+    question: "How many Dragon Balls are there on Earth?",
+    answers: ["Twelve", "Seven", "None"],
+    correct: "Seven"
+  },
+  {
+    question: "Who is Goku's longest Mentor?",
+    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
+    correct: "Master Roshi"
+  },
+  {
+    question: "What food can revive a gravely wounded warrior?",
+    answers: ["Fruit of Might", "Dragon Roll", "Senzu Bean"],
+    correct: "Senzu Bean"
+  },
+  {
+    question: "Where did Goku learn Instant Transmission?",
+    answers: ["Other World", "Planet of the Kais", "Yadrat"],
+    correct: "Yadrat"
+  },
+  {
+    question: "What is the Namekian Eternal Dragon's name?",
+    answers: ["Puar", "Porunga", "Pilaf"],
+    correct: "Porunga!"
+  },
+    {
+      question: "Who isn't Goku's brother?",
+      answers: ["Komquat", "Turles", "Raditz"],
+      correct: "Komquat"
+    },
+    {
+      question: "Who defeated Cell in the Cell games?",
+      answers: ["Goten", "Gohan", "Hercule"],
+      correct: "Gohan"
+    },
+    {
+      question: "How many incarnations did Buu have?",
+      answers: ["Four", "Seven", "Three"],
+      correct: "Four"
+    },
+    {
+      question: "What was Goku's power level when he fought Napa?",
+      answers: ["200", "6900", "Over 9000!"],
+      correct: "Over 9000!"
+    }
+  ]
