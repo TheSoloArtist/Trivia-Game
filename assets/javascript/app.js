@@ -137,7 +137,7 @@ var questionBank =
   {
     question: "What is the Namekian Eternal Dragon's name?",
     answers: ["Puar", "Porunga", "Pilaf"],
-    correct: "Porunga!"
+    correct: "Porunga"
   },
     {
       question: "Who isn't Goku's brother?",
