@@ -1,17 +1,17 @@
 $(document).ready(function(){
 
-  // start the game when user clicks on Start button
+  // starting the game
   $("#start-button").on("click", gameState.startTimer);
 
 });
 
-// information about the state of game play
+// LETS PLAY
 var gameState = {
 
-  // set the time at 60 seconds, and count down by 1 second
+  // 60 seconds count down by 1sec
   timeRemaining : 60,
 
-  // start the timer, hide the start page, show the questions
+  // starting timer transitioning start page
   startTimer: function() {
     $("#timer").text("Time remaining: " + gameState.timeRemaining);
     setInterval(gameState.countdown, 1000);
@@ -47,10 +47,10 @@ var gameState = {
   }
 }
 
-// functions to handle the building questions page and scoring
+// functions for scoring
 var trivia = {
 
-  // pull questions from the array of questions, loop through them, and append to UI
+  // pulling questions for ui
   displayQuestions: function() {
     var divContainer = $("#questions-box");
     var answerGroup = $(".form-check");
@@ -69,13 +69,13 @@ var trivia = {
       divContainer.append('<div class="form-check"><input class="form-check-input" type="radio" name="radio-group'+i+'" id="radio'+i+'"><label class="form-check-label" id="radio'+i+'label" for="radio'+i+'">' + answer3 + '</label></div>');
     }
 
-    // add a Done button to the end of the page and register its click handler
+    // added  Done button 
     var doneButton = '<button class="btn btn-primary" id="done-button" type="submit">Done</button>';
     divContainer.append(doneButton);
     $("#done-button").on("click", gameState.stopTimer);
   },
 
-  // test if the user answers are correct, incorrect, or if there are unanswered questions
+  // test if answers are correct or otherwise
   checkAnswers: function() {
     var correctAnswer;
     var userAnswer;
@@ -83,8 +83,8 @@ var trivia = {
     var numIncorrect = 0;
     var numUnanswered = 0;
 
-    // loop through to compare the text of the label with the user answers
-    // increment score counts appropriately
+    // loop comparing text to user answers
+    // score increment
     for (var i = 0; i < questionBank.length; i++) {
       correctAnswer = questionBank[i].correct;
       userAnswer = $('input[id=radio'+i+']:checked + label').text();
@@ -105,9 +105,54 @@ var trivia = {
   },
 }
 
-// array of objects with the questions, possible answers, and the correct answer
+// array:with questions and the correct answer
 var questionBank =
 [
+  {
+    question: "Who is Goku's longest Mentor?",
+    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
+    correct: "Master Roshi"
+  },
+  {
+    question: "Who is Goku's longest Mentor?",
+    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
+    correct: "Master Roshi"
+  },
+  {
+    question: "Who is Goku's longest Mentor?",
+    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
+    correct: "Master Roshi"
+  },
+  {
+    question: "Who is Goku's longest Mentor?",
+    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
+    correct: "Master Roshi"
+  },
+  {
+    question: "Who is Goku's longest Mentor?",
+    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
+    correct: "Master Roshi"
+  },
+  {
+    question: "Who is Goku's longest Mentor?",
+    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
+    correct: "Master Roshi"
+  },
+  {
+    question: "Who is Goku's longest Mentor?",
+    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
+    correct: "Master Roshi"
+  },
+  {
+    question: "Who is Goku's longest Mentor?",
+    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
+    correct: "Master Roshi"
+  },
+  {
+    question: "Who is Goku's longest Mentor?",
+    answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
+    correct: "Master Roshi"
+  },
   {
     question: "Who is Goku's longest Mentor?",
     answers: ["Grandpa Gohan", "Master Roshi", "King Kai"],
